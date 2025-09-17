@@ -10,7 +10,4 @@ public class SimpleCoffee implements Coffee{
     public String getDesc() {
         return "Simple Coffee";
     }
-
-
-
 }

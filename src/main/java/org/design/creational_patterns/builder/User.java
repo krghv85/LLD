@@ -12,11 +12,6 @@ public class User {
         private String name;
         private int age;
 
-//        public Builder(String name, int age){
-//            this.name = name;
-//            this.age = age;
-//        }
-
        public Builder name(String name) {
            this.name = name;
            return this;
@@ -29,7 +24,6 @@ public class User {
             return new User(this);
       }
    }
-
     @Override
     public String toString() {
         return "Name: "+ name + ", Age: "+ age ;
